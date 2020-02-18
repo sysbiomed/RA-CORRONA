@@ -1,7 +1,5 @@
-*******************
-"Sparse consensus classification for discovering novel biomarkers in rheumatoid arthritis"
-*******************
 
+"Sparse consensus classification for discovering novel biomarkers in rheumatoid arthritis"
 Cláudia Constantino, Alexandra M. Carvalho and Susana Vinga
 LOD 2020 (submitted) 
 
@@ -15,9 +13,9 @@ We also use a Bayesian network methodology to discover relevant protein-protein 
 
 The following files allow fully reproducibility of the results reported:
 
-- Data extracted from NCBI-GEO database ("Transcriptomic_data");
-- Data split into BL and M3 ("data_baseline" and "data_MO3");
-- Data with protein-protein interactions from STRING database ("STRING_IDnames");
+- Data extracted from NCBI-GEO database ("Transcriptomic_data.txt");
+- Data split into BL and M3 ("data_baseline.xlsx" and "data_MO3.csv");
+- Data with protein-protein interactions from STRING database ("STRING_IDnames.xlsx");
 - R code used to process BL and M3 data;
 - R code where we applied the same methodology as in the BL and M3 data to the top 100 genes reported by Farutin et al.
 
